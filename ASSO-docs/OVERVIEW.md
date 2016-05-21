@@ -1,3 +1,12 @@
+
+**Faculdade de Ciências da Universidade do Porto**
+
+- Artur Nogueira 201308142
+
+- Simon Afonso 201305059
+
+- Tiago Castanheira 201207833
+
 #OneBusAway
 Official Website: [OneBusAway](http://www.onebusaway.org/)
 
