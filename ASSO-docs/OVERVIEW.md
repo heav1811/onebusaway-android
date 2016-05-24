@@ -48,9 +48,9 @@ The user interface services each get an instance of TransitDataService interface
     real-time arrival handling;
     trip-planning.
 
-## Logical View
+## Development View
 
-![Logical View](https://github.com/heav1811/onebusaway-android/blob/master/ASSO-docs/PackageView.png?raw=true)
+![Development View](https://github.com/heav1811/onebusaway-android/blob/master/ASSO-docs/PackageView.png?raw=true)
 
 App: Class package that starts the init process and loads the elements.
 
@@ -73,3 +73,11 @@ Provider: Class package that establishes contracts between the clients and the O
 Adapter: Class used to test functionalities and find bugs.
 
 IO: Most important class package responsible for setting the connection between the users and the servers and handling requests as well as managing the backup system.
+
+
+## Physical View
+
+![Development View](https://github.com/heav1811/onebusaway-android/blob/master/ASSO-docs/PackageView.png?raw=true)
+
+https://github.com/heav1811/onebusaway-android/blob/master/ASSO-docs/deployment%20.png?raw=true
+
