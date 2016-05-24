@@ -30,7 +30,7 @@ It is still a project in development with several collaborators with the willing
 
 ##
 
-![alt text](https://github.com/OneBusAway/onebusaway-application-modules/wiki/ArchitectureDiagram.png "Diagram")
+![arquitecture](https://github.com/OneBusAway/onebusaway-application-modules/wiki/ArchitectureDiagram.png)
 
 ##
 
@@ -47,3 +47,29 @@ The user interface services each get an instance of TransitDataService interface
     schedule computation;
     real-time arrival handling;
     trip-planning.
+
+## Logical View
+
+![Logical View](https://github.com/heav1811/onebusaway-android/blob/master/ASSO-docs/PackageView.png?raw=true)
+
+App: Class package that starts the init process and loads the elements.
+
+Maps: Class package that manages the Google Maps database.
+
+Tripservice: Class package responsible for managing the notification and scheduler tasks.
+
+View: Class package that displays views such as Distance to Stops, Real Time Indicators and the arrow pointers.
+
+UI: User interface class package that controls the information showed to the user.
+
+Util: Set of utilities such as preference settings, region and location options and math functions.
+
+Region: Class package that contains the regions database and an interface for it's managing.
+
+Mook: Class of objects used in tests to simulate running the application.
+
+Provider: Class package that establishes contracts between the clients and the ObaProvider and sets the user's own local database.
+
+Adapter: Class used to test functionalities and find bugs.
+
+IO: Most important class package responsible for setting the connection between the users and the servers and handling requests as well as managing the backup system.
