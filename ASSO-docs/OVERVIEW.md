@@ -86,3 +86,6 @@ Mock simulation:
 ## Physical View
 
 ![Development View](https://github.com/tuianog/onebusaway-android/blob/master/ASSO-docs/deployment%20.png?raw=true)
+
+
+This physical depicts the system from a system engineer's point of view. It is concerned with the topology of software components on the physical layer, as well as physical connections between components. Since our project is an android aplication it can be built from various operating systems but we only tested with windows. It is built in Android Studio ( which can be installed in Linux and Mac OX, making possible to work with the 3 OS), from AS we can build it to an android-emulator to run it in the PC. Furthermore, we can also built it into any android-device from AS. 
