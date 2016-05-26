@@ -79,8 +79,6 @@ IO: Most important class package responsible for setting the connection between 
 
 ![Development View](https://github.com/tuianog/onebusaway-android/blob/master/ASSO-docs/development_view.png?raw=true)
 
-![Development View](https://github.com/tuianog/onebusaway-android/blob/master/ASSO-docs/development_view.png?raw=true)
-
 Mock simulation: 
 
 ![Mock_simulation_view](https://github.com/tuianog/onebusaway-android/blob/master/ASSO-docs/development_mock_simulation.png?raw=true)
