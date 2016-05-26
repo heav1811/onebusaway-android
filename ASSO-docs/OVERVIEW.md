@@ -73,3 +73,18 @@ Provider: Class package that establishes contracts between the clients and the O
 Adapter: Class used to test functionalities and find bugs.
 
 IO: Most important class package responsible for setting the connection between the users and the servers and handling requests as well as managing the backup system.
+
+
+## Development View
+
+![Development View](https://github.com/tuianog/onebusaway-android/blob/master/ASSO-docs/development_view.png?raw=true)
+
+![Development View](https://github.com/tuianog/onebusaway-android/blob/master/ASSO-docs/development_view.png?raw=true)
+
+Mock simulation: 
+
+![Mock_simulation_view](https://github.com/tuianog/onebusaway-android/blob/master/ASSO-docs/development_mock_simulation.png?raw=true)
+
+## Physical View
+
+![Development View](https://github.com/tuianog/onebusaway-android/blob/master/ASSO-docs/deployment%20.png?raw=true)
