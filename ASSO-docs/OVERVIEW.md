@@ -30,7 +30,7 @@ It is still a project in development with several collaborators with the willing
 
 ##
 
-![alt text](https://github.com/OneBusAway/onebusaway-application-modules/wiki/ArchitectureDiagram.png "Diagram")
+![arquitecture](https://github.com/OneBusAway/onebusaway-application-modules/wiki/ArchitectureDiagram.png)
 
 ##
 
@@ -47,3 +47,45 @@ The user interface services each get an instance of TransitDataService interface
     schedule computation;
     real-time arrival handling;
     trip-planning.
+
+## Logical View
+
+![Logical View](https://github.com/heav1811/onebusaway-android/blob/master/ASSO-docs/PackageView.png?raw=true)
+
+App: Class package that starts the init process and loads the elements.
+
+Maps: Class package that manages the Google Maps database.
+
+Tripservice: Class package responsible for managing the notification and scheduler tasks.
+
+View: Class package that displays views such as Distance to Stops, Real Time Indicators and the arrow pointers.
+
+UI: User interface class package that controls the information showed to the user.
+
+Util: Set of utilities such as preference settings, region and location options and math functions.
+
+Region: Class package that contains the regions database and an interface for it's managing.
+
+Mook: Class of objects used in tests to simulate running the application.
+
+Provider: Class package that establishes contracts between the clients and the ObaProvider and sets the user's own local database.
+
+Adapter: Class used to test functionalities and find bugs.
+
+IO: Most important class package responsible for setting the connection between the users and the servers and handling requests as well as managing the backup system.
+
+
+## Development View
+
+![Development View](https://github.com/tuianog/onebusaway-android/blob/master/ASSO-docs/development_view.png?raw=true)
+
+Mock simulation: 
+
+![Mock_simulation_view](https://github.com/tuianog/onebusaway-android/blob/master/ASSO-docs/development_mock_simulation.png?raw=true)
+
+## Physical View
+
+![Development View](https://github.com/tuianog/onebusaway-android/blob/master/ASSO-docs/deployment%20.png?raw=true)
+
+
+This physical depicts the system from a system engineer's point of view. It is concerned with the topology of software components on the physical layer, as well as physical connections between components. Since our project is an android aplication it can be built from various operating systems but we only tested with windows. It is built in Android Studio ( which can be installed in Linux and Mac OX, making possible to work with the 3 OS), from AS we can build it to an android-emulator to run it in the PC. Furthermore, we can also built it into any android-device from AS. 
