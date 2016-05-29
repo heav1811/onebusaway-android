@@ -75,17 +75,31 @@ Adapter: Class used to test functionalities and find bugs.
 IO: Most important class package responsible for setting the connection between the users and the servers and handling requests as well as managing the backup system.
 
 
-## Development View
+Here is a more detailed view of some aspects of logical view!
 
-![Development View](https://github.com/tuianog/onebusaway-android/blob/master/ASSO-docs/development_view.png?raw=true)
+![I Dont Even Know](https://github.com/tuianog/onebusaway-android/blob/master/ASSO-docs/development_view.png?raw=true)
 
 Mock simulation: 
 
 ![Mock_simulation_view](https://github.com/tuianog/onebusaway-android/blob/master/ASSO-docs/development_mock_simulation.png?raw=true)
 
+
+## Development View
+
+![Development View](https://github.com/heav1811/onebusaway-android/blob/master/ASSO-docs/implementation_view.png?raw=true)
+
+This views allows us to observe the decomposition of the system from a programmer's point of view. With it we can understand what are the main components of our study project. As we can see in the picture above since it's an client server application we decided to featured the Server, which has the in real time informaction about the routes or stops, the api that gets that information, the Google Maps since it's an Android App and the main application itself. We represented the Agency Data as a component as well. 
+
+
+## Process View
+
+![Process View](https://github.com/heav1811/onebusaway-android/blob/master/ASSO-docs/process_view.png?raw=true)
+The process view deals with the dynamic aspects of the system, explains the system processes and how they communicate. Since you already know that we have an application this view tells you what it does and what you can do. Here you can understand the core functionalities of the project.
+
+
 ## Physical View
 
-![Development View](https://github.com/tuianog/onebusaway-android/blob/master/ASSO-docs/deployment%20.png?raw=true)
+![Physical View](https://github.com/heav1811/onebusaway-android/blob/master/ASSO-docs/deployment%20.png?raw=true)
 
 
 This physical depicts the system from a system engineer's point of view. It is concerned with the topology of software components on the physical layer, as well as physical connections between components. Since our project is an android aplication it can be built from various operating systems but we only tested with windows. It is built in Android Studio ( which can be installed in Linux and Mac OX, making possible to work with the 3 OS), from AS we can build it to an android-emulator to run it in the PC. Furthermore, we can also built it into any android-device from AS. 
