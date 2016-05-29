@@ -86,7 +86,7 @@ Mock simulation:
 
 ## Development View
 
-![Development View](https://github.com/heav1811/onebusaway-android/blob/master/ASSO-docs/implementation_view.png?raw=true)
+![Development View](https://github.com/heav1811/onebusaway-android/blob/master/ASSO-docs/implementation_view_v1.png?raw=true)
 
 This views allows us to observe the decomposition of the system from a programmer's point of view. With it we can understand what are the main components of our study project. As we can see in the picture above since it's an client server application we decided to featured the Server, which has the in real time informaction about the routes or stops, the api that gets that information, the Google Maps since it's an Android App and the main application itself. We represented the Agency Data as a component as well. 
 
