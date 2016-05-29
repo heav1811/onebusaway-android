@@ -107,4 +107,7 @@ This physical depicts the system from a system engineer's point of view. It is c
 
 ## Case View
 
-![Physical View](https://github.com/heav1811/onebusaway-android/blob/master/ASSO-docs/case_view.png?raw=true)
+![Case View](https://github.com/heav1811/onebusaway-android/blob/master/ASSO-docs/case_view.png?raw=true)
+
+
+This view shows the available interactions for both the user and the developer's perspective. Being an Android application, the user side is different from the development side, however, both communicate to each other through the back-end system. Each one with it's own goals as, the user to request certain data for specifics stops/routes and  the developer's to respond and deliver the information available related to the matter.
